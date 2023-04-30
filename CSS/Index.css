@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+*{ 
+    margin: 0;  
+    padding: 0;
+}
+
+.BGIMG{
+    width: 100%;  
+    height: 100vh;  
+    background-size: cover;  
+    background-color: rgb(0, 0, 0);
+    background-position: center center;
+    filter: blur(1.6px);
+    position: relative;
+}
+
+.table-menu{  
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: aliceblue;
+
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+th{
+    width: 33.33%; 
+    vertical-align: top;
+}
+
+nav{
+    position: absolute;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(175, 154, 31);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 10px;
+    text-transform: lowercase;
+    bottom: 0;
+}
+
+a{
+    display: inline-block;
+    line-height: 25px;
+    margin: 10 15px;
+}
+
+a{
+    color: #ffbb00;
+    font-size: 20px;
+    padding: 10px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border-style: solid;
+}
+
+a:hover{
+    color: #9c3100;
+    background: #ffc000;
+    transition: 0.2s;
+}
+
+.action{
+    margin: auto;
+    width: 250px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #f7fa44;
+    border-radius: 6px;
+    display: flex;
+}
+
+.action input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffbb00;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.search input{
+    width: 40px;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #ffbb00;
+    cursor: pointer;
+}
+
+.search input::placeholder{
+    color: #ffbb00;
+}
+
+.search input button i{
+    font-size: 22px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin: auto;
+    width: 50%;
+
+}
+
+.allcar{
+    margin-top: 20px;
+}
+
+
+
